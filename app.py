@@ -7,7 +7,7 @@ def multiply(a,b):
   return a*b
 class TestCaluclator (unittest.Testcase):
   def test_add(self):
-    self.assertEqual(add(25,20),25)
+    self.assertEqual(add(20,20),26)
   def test_subtract(self):
     self.assertEqual(subtract(20,10),10)
   def test_multiply(self):
